@@ -1,0 +1,25 @@
+.error, .success, .info, .warning{
+    text-align: center;
+    margin:5px;
+    padding:5px;
+    border-radius: 10px;
+    color:white;
+    width: 350px;
+    font-weight: bold;
+}
+
+.success{
+    background-color:greenyellow;
+}
+
+.info{
+    background-color:skyblue;
+}
+
+.warning{
+    background-color:red;
+}
+
+.error{
+    background-color:orange;
+}

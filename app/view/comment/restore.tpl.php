@@ -1,0 +1,2 @@
+<i class="fa fa-trash-o"></i> <a href="<?=$this->url->create('comment/remove-all/' . $pagekey)?>">Remove all Comments</a>
+<i class="fa fa-refresh"></i> <a href="<?=$this->url->create('comment/setup-comments/' . $pagekey)?>">Reset Database</a> 

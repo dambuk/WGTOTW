@@ -1,0 +1,1 @@
+<p class ="login-message"><a id="login-button" href="<?=$this->di->get('url')->create('login')?>">Login</a> to ask a questions, answer, comment or edit content.</p>

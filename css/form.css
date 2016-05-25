@@ -1,0 +1,47 @@
+/**
+ * Style for forms
+ */
+label, legend {
+  font-size: 16px;
+  font-family: 'Palatino Linotype', Arial, sans-serif;
+}
+input
+{
+  margin-bottom: 5px;
+}
+input[type=submit],
+input[type=reset] {
+  font-size: 1.2em;
+  padding: 5px;
+  background-color: #FF5733;
+  color:#F7DC6F;
+  border-radius: 5px; 
+}
+input[type=submit]:hover,
+input[type=reset]:hover
+{
+  color: #7B241C  ; 
+  background-color: #D98880;
+  border-radius: 5px;
+}
+input[name=name],
+input[name=email]
+{
+    float: left;
+}
+
+input[type=url]
+{
+    width: 635px;
+}
+textarea {
+  font-size: 1.2em;
+  width: 635px;
+  min-height: 50px;
+  border-radius: 5px;
+}
+
+p.buttons {
+  padding-top: 22px;
+  padding-bottom: 22px;
+} 
